@@ -17,6 +17,11 @@ pip install -r requirements.txt
 python3 main.py <qb_url> <username> <password>
 
 ```
+optionally use the --dry-run flag to find the torrents it will be deleting without deleting the torrent
+
+```bash
+uv run main.py <qb_url> <username> <password> --dry-run
+```
 
 # license
 wtfpl
